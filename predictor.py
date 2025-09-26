@@ -210,6 +210,10 @@ def compute_matchup_and_player_prediction(teamA_stats: Dict[str, Any],
     else:
         pA = win_prob_by_expected(a_exp, b_exp)
         pB = 1.0 - pA
+    #player checks
+    player_name = player_profile.get("fullName", player_profile.get("name", "Unknown"))
+    position = player_profile.get("position", "").upper() or "UNK"
+    valid_stats = get_valid_stats_for_position(position)
 
     
     if stat_type not in valid_stats:
