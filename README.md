@@ -1,7 +1,8 @@
 NFLGDSC — NFL Prediction App
 
-This project was created by Sannidhya Tiwari for a Google Developer Student Club (GDSC) workshop, where I combine pieces of my personal interests and professional experience. Football has always been a passion of mine, and the GDSC is an organization I deeply respect. This project brings together data science, Python programming, and UI/UX development to create a real-time NFL prediction app.
+This project was originally developed as part of the Google Developer Student Club at The University of Texas at Dallas. Initial structure and outline provided by Sannidhya Tiwari.
 
+Original repository: https://github.com/sannidhya09/NFLGDSC
 Overview
 
 The NFLGDSC app predicts player performance and game outcomes for upcoming NFL games. It uses both heuristic methods and regression models to give accurate predictions, while ensuring position-aware logic so predictions make sense for each player's role.
